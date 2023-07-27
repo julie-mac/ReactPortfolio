@@ -56,7 +56,7 @@ const Portfolio = () => {
 
   // Maps through each project in the array to create a ProjectItem
   return (
-    <section className='portfolio'>
+    <section id='portfolio'>
       <h2>Portfolio</h2>
       <div className="project-list">
         {projects.map((project, index) => (

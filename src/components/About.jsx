@@ -3,7 +3,7 @@ import myPicture from "../assets/me.png";
 
 const About = () => {
     return (
-        <section className='about'>
+        <section id='about'>
             <h2>About Me</h2>
             <img src={myPicture} alt="Me"/>
             <p>Hi there! I'm Julie, a passionate and detail-oriented junior developer based in Toronto. With a strong foundation in web development and a creative mindset, I strive to create user-friendly and visually appealing websites that deliver exceptional user experiences.</p>

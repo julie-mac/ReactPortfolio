@@ -4,13 +4,15 @@ import './App.css';
 import './App.css';
 import Portfolio from './components/Portfolio';
 import About from './components/About'
+import Contact from './components/Contact';
 
 
 function App() {
   return (
     <div className='container'>
-        <Portfolio />
         <About/>
+        <Portfolio />
+        <Contact />
     </div>
   );
 };

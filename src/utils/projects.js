@@ -1,6 +1,0 @@
-const projectArray = [
-    {
-        title: "StarSigns",
-        
-    }
-]

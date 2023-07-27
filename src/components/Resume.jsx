@@ -16,7 +16,7 @@ const Resume = () => {
   ];
 
   return (
-    <section>
+    <section id="resume">
       <h2>Resume</h2>
       <p>
         You can download my resume <a href="../assets/resume.pdf" download>here</a>.

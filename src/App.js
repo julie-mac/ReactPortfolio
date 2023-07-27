@@ -7,10 +7,13 @@ import About from './components/About'
 import Contact from './components/Contact';
 import Resume from './components/Resume';
 import Footer from './components/Footer';
+import Header from './components/Header';
 
 function App() {
   return (
     <div className='container'>
+        <Header />
+        <br></br>
         <About/>
         <br></br>
         <Portfolio />

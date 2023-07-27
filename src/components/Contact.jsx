@@ -52,7 +52,7 @@ const Contact = () => {
   };
 
   return (
-    <section>
+    <section id="contact">
       <h2>Contact</h2>
       <form onSubmit={handleSubmit}>
         <div className="form-group">

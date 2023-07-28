@@ -2,7 +2,7 @@ import React from 'react';
 
 const ProjectItem = ({ title, image, description, deployedLink, githubLink }) => {
     return (
-      <div className="card mb-4" style={{width:"300px"}}>
+      <div className="card col-md-5">
         <img src={image} className="card-img-top" alt={title} />
         <div className="card-body">
           <h5 className="card-title">{title}</h5>

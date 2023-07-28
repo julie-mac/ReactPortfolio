@@ -14,6 +14,7 @@ const Footer = () => {
           <i className="fab fa-twitter">Twitter</i>
         </a>
       </div>
+      <br></br>
       <p>&copy; {new Date().getFullYear()} Julie Macpherson. All rights reserved.</p>
     </footer>
   );

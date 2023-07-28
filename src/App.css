@@ -36,3 +36,20 @@
     transform: rotate(360deg);
   }
 }
+
+#mypic {
+  width: 300px;
+  margin: 20px;
+}
+
+.card {
+  margin: 5px;
+}
+
+#mypic {
+  border-radius: 50%;
+}
+
+input {
+  background-color: #F4CBF6;
+}

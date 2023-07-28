@@ -5,7 +5,7 @@ const About = () => {
     return (
         <section id='about'>
             <h2>About Me</h2>
-            <img src={myPicture} alt="Me"/>
+            <img src={myPicture} alt="Me" id="mypic"/>
             <p>Hi there! I'm Julie, a passionate and detail-oriented junior developer based in Toronto. With a strong foundation in web development and a creative mindset, I strive to create user-friendly and visually appealing websites that deliver exceptional user experiences.</p>
             <p>I embarked on my web development journey earlier this year, and since then, I have been captivated by the ever-evolving world of technology. I've had the opportunity to work on a diverse range of projects, from building responsive web applications to crafting interactive user interfaces.</p>
             <p>My technical toolkit includes proficiency in a variety of programming languages, frameworks, and tools. Some of the technologies I'm well-versed in include:</p>

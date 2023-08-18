@@ -6,6 +6,7 @@ import tastybytesImage from '../assets/tastybytes.jpg';
 import noteplusImage from '../assets/noteplus.jpg';
 import genpassImage from '../assets/genpass.jpg';
 import preworkImage from '../assets/prework.jpg';
+import hubImage from "../assets/careerhub.png";
 
 const Portfolio = () => {
   //Array of objects containing project data for portfolio
@@ -47,10 +48,17 @@ const Portfolio = () => {
     },
     {
       title: 'Prework Study Guide',
-      image: preworkImage,
-      description: 'My first-ever static website containing notes for bootcamp students.',
+      image: hubImage,
+      description: 'A career-based forum site where users can share their knowledge from different industries.',
       deployedLink: 'https://julie-mac.github.io/prework-study-guide/',
       githubLink: 'https://github.com/julie-mac/prework-study-guide',
+    },
+    {
+      title: 'CareerHub',
+      image: preworkImage,
+      description: 'My first-ever static website containing notes for bootcamp students.',
+      deployedLink: 'https://careerhub-5b5d4464cfbf.herokuapp.com/',
+      githubLink: 'https://github.com/julie-mac/CareerHub',
     },
   ];
 

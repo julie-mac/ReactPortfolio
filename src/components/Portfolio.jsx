@@ -12,6 +12,13 @@ const Portfolio = () => {
   //Array of objects containing project data for portfolio
   const projects = [
     {
+      title: 'CareerHub',
+      image: hubImage,
+      description: 'My first-ever static website containing notes for bootcamp students.',
+      deployedLink: 'https://careerhub-5b5d4464cfbf.herokuapp.com/',
+      githubLink: 'https://github.com/julie-mac/CareerHub',
+    },
+    {
       title: 'StarSigns',
       image: starsignsImage,
       description: 'A website utilizing different APIs to tell you about your zodiac sign and its ruling planet.',
@@ -48,17 +55,10 @@ const Portfolio = () => {
     },
     {
       title: 'Prework Study Guide',
-      image: hubImage,
+      image: preworkImage,
       description: 'A career-based forum site where users can share their knowledge from different industries.',
       deployedLink: 'https://julie-mac.github.io/prework-study-guide/',
       githubLink: 'https://github.com/julie-mac/prework-study-guide',
-    },
-    {
-      title: 'CareerHub',
-      image: preworkImage,
-      description: 'My first-ever static website containing notes for bootcamp students.',
-      deployedLink: 'https://careerhub-5b5d4464cfbf.herokuapp.com/',
-      githubLink: 'https://github.com/julie-mac/CareerHub',
     },
   ];
 

@@ -14,7 +14,7 @@ const Portfolio = () => {
     {
       title: 'CareerHub',
       image: hubImage,
-      description: 'My first-ever static website containing notes for bootcamp students.',
+      description: 'A career-based forum site where users can share their knowledge from different industries.',
       deployedLink: 'https://careerhub-5b5d4464cfbf.herokuapp.com/',
       githubLink: 'https://github.com/julie-mac/CareerHub',
     },
@@ -56,7 +56,7 @@ const Portfolio = () => {
     {
       title: 'Prework Study Guide',
       image: preworkImage,
-      description: 'A career-based forum site where users can share their knowledge from different industries.',
+      description: 'My first-ever static website containing notes for bootcamp students.',
       deployedLink: 'https://julie-mac.github.io/prework-study-guide/',
       githubLink: 'https://github.com/julie-mac/prework-study-guide',
     },
